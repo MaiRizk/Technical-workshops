@@ -1,15 +1,17 @@
-function showFirstBlock() {
-	document.getElementById("show-more1").style.display = "block";
-	document.getElementById("show-1").style.display = "none";
+// Mobile navigation menu
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
 }
 
-function showSecondBlock() {
-	document.getElementById("show-more2").style.display = "block";
-	document.getElementById("show-2").style.display = "none";
+const openMenu = document.getElementById("open");
+openMenu.addEventListener("click", openNav);
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
 
-const showFirst = document.getElementById("show-1");
-showFirst.addEventListener("click", showFirstBlock);
+const closeMenu = document.getElementById("close");
+closeMenu.addEventListener("click", closeNav)
 
-const showSecond = document.getElementById("show-2");
-showSecond.addEventListener("click", showSecondBlock);
+
