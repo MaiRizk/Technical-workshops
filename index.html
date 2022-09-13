@@ -1,14 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technical Workshops</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  
-  <script src="index.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//fonts.googleapis.com/css?family=Lato"
+		/>
+		<title>Technical Workshops</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="primary-font">
+		<div class="main-container">
+			<div class="main-content">
+				<header>
+					<nav class="mobile-nav">
+						<img
+							class="mobile-icon"
+							src="images/hamburger.jpg"
+							alt="mobile-menu"
+						/>
+					</nav>
+				</header>
+				<section>
+					<h4 class="secondary hello">"Hello! Tech World"</h4>
+					<h1 class="secondary">Worldwide technical workshops</h1>
+					<article class="primary main-article">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</article>
+					<div class="timing">
+						<h2>First Workshop: Friday 16th Sep</h2>
+						<h6>
+							Link will be shared soon.
+							<br />
+							<span class="secondary">Stay Tuned!</span>
+						</h6>
+					</div>
+				</section>
+			</div>
+		</div>
+		<section class="workshops">
+			<h2 class="title workshops-title">Main Workshops</h2>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/html.png" alt="html" />
+				<h3 class="card-name secondary">HTML 5</h3>
+				<p class="card-content">
+					HTML (HyperText Markup Language) is the code that is used to structure
+					a web page and its content.
+				</p>
+			</div>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/css.png" alt="css" />
+				<h3 class="card-name secondary">CSS 3</h3>
+				<p class="card-content">
+					Cascading Style Sheets (CSS) is a stylesheet language used to describe
+					the presentation of a document written in HTML or XML
+				</p>
+			</div>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/JS.png" alt="JS" />
+				<h3 class="card-name secondary">JS</h3>
+				<p class="card-content">
+					JavaScript is a cross-platform, object-oriented scripting language
+					used to make webpages interactive.
+				</p>
+			</div>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/React.png" alt="React" />
+				<h3 class="card-name secondary">React</h3>
+				<p class="card-content">
+					React is a declarative, efficient, and flexible JavaScript library for
+					building user interfaces.
+				</p>
+			</div>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/Vue.png" alt="Vue" />
+				<h3 class="card-name secondary">Vue</h3>
+				<p class="card-content">
+					Vue (pronounced /vjuː/, like view) is a JavaScript framework for
+					building user interfaces.
+				</p>
+			</div>
+			<div class="workshop-card">
+				<img class="card-img" src="./images/Angular.png" alt="Vue" />
+				<h3 class="card-name secondary">Angular</h3>
+				<p class="card-content">
+					Angular is a TypeScript-based free and open-source web application
+					framework led by the Angular Team at Google and by a community of
+					individuals and corporations.
+				</p>
+			</div>
+			<div class="btn-div">
+				<button class="join-btn">Join our workshops NOW!</button>
+			</div>
+		</section>
+		<section class="speakers">
+			<h2 class="title speakers-title primary">Featured Speakers</h2>
+			<div class="speaker">
+				<div class="img-container">
+					<img class="speaker-img" src="./images/speaker1.jpg" />
+				</div>
+				<div>
+					<h4 class="primary">Mosh Hamedani</h4>
+					<h6 class="secondary speaker-intro">
+						Hello! My name is Mosh Hamedani.
+					</h6>
+					<p class="primary">
+						My life’s mission is to help novice and professional software
+						engineers increase their skills, make more money, and ultimately
+						change their lives for the better.
+					</p>
+				</div>
+			</div>
+			<div class="speaker">
+				<div class="img-container">
+					<img class="speaker-img" src="./images/speaker2.jpg" />
+				</div>
+				<div>
+					<h4 class="primary">Jen Kramer</h4>
+					<h6 class="secondary speaker-intro">Jen is a Harvard professior.</h6>
+					<p class="primary">
+						For over twenty years, Jen Kramer has been educating clients,
+						colleagues, friends and graduate students about the meaning of a
+						“quality website.”
+					</p>
+				</div>
+			</div>
+			<button class="primary show-btn show-1" id="show-1">
+				MORE
+				<img src="images/arrow.png" alt="show more" />
+			</button>
+			<div class="show-more1" id="show-more1">
+				<div class="speaker">
+					<div class="img-container">
+						<img class="speaker-img" src="./images/speaker3.jpg" />
+					</div>
+					<div>
+						<h4 class="primary">Kyle Simpson</h4>
+						<h6 class="secondary speaker-intro">Open Web Evangelist</h6>
+						<p class="primary">
+							Kyle Simpson likes to explore JS and FP techniques. He’s written
+							books, taught, and spoken publicly.
+						</p>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="img-container">
+						<img class="speaker-img" src="./images/speaker4.jpeg" />
+					</div>
+					<div>
+						<h4 class="primary">Brian Holt</h4>
+						<h6 class="secondary speaker-intro">
+							Product manager on dev tools at Stripe
+						</h6>
+						<p class="primary">
+							He’s all about developers, developers, developers. Previously he
+							was a JavaScript engineer at Netflix, Microsoft and Reddit.
+						</p>
+					</div>
+				</div>
+				<button class="primary show-btn show-2">
+					MORE
+					<img src="images/arrow.png" alt="show more" />
+				</button>
+			</div>
+			<div class="show-more2">
+				<div class="speaker">
+					<div class="img-container">
+						<img class="speaker-img" src="./images/speaker5.jpg" />
+					</div>
+					<div>
+						<h4 class="primary">Sarah Drasner</h4>
+						<h6 class="secondary speaker-intro">
+							VP of Developer Experience at Netlify
+						</h6>
+						<p class="primary">
+							Sarah Drasner is an award-winning Speaker, VP of Developer
+							Experience at Netlify, Vue core team member, and Staff Writer at
+							CSS-Tricks.
+						</p>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="img-container">
+						<img class="speaker-img" src="./images/speaker6.jpeg" />
+					</div>
+					<div>
+						<h4 class="primary">Lukas Ruebbelke</h4>
+						<h6 class="secondary speaker-intro">Principle Engineer at Venmo</h6>
+						<p class="primary">
+							Lukas gets to spend his entire time mentoring and training
+							developers to be effective and build things that people care
+							about.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="index.js"></script>
+	</body>
 </html>
