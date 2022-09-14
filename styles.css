@@ -437,6 +437,21 @@ footer img {
 	width: 160px;
 }
 
+.about-footer {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.footer-container {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  align-items: center;
+}
+
 .heart {
 	background-color: red;
 	display: inline-block;
@@ -590,5 +605,41 @@ footer img {
 
   .desktop-footer {
     display: block;
+  }
+
+  .about-article {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .past {
+    width: 70%;
+  }
+
+  .past-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .past-card {
+    width: 49%;
+  }
+
+  .about-partners {
+    display: none;
+  }
+
+  .about-footer {
+    background: #414246;
+  }
+
+  .footer-container p {
+    color: white;
   }
 }
