@@ -23,6 +23,18 @@ body {
 	height: 50px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
+.desktop-partners {
+  display: none;
+}
+
+.desktop-footer {
+  display: none;
+}
+
 .main-container {
 	position: relative;
 }
@@ -159,6 +171,7 @@ h1 {
 	font-size: 22px;
 	padding: 26px;
 	font-weight: 600;
+  cursor: pointer;
 }
 
 .speakers {
@@ -461,4 +474,121 @@ footer img {
 	20% {
 		transform: scale(1.25) translateX(5%) translateY(25%);
 	}
+}
+
+/* Desktop Styling */
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+    box-shadow: 0px 11px 10px -16px #111;
+  }
+
+  .desk-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  .desktop-nav img {
+    width: 200px;
+  }
+
+  .desktop-nav a {
+    text-decoration: none;
+    color: #808080;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .main-content {
+    width: 80%;
+    margin: auto;
+    padding: 60px 20px 40px 20px;
+  }
+
+  .hello {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  .main-article {
+    width: 50%;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .workshop-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: 300px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-content {
+    text-align: center;
+  }
+  
+  .speakers {
+    width: 80%;
+    margin: auto;
+  }
+
+  .show-btn {
+    display: none;
+  }
+
+  .show-more1 {
+    display: block;
+  }
+
+  .show-more2 {
+    display: block;
+  }
+
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .speaker {
+    margin-bottom: 30px;
+  }
+
+  .show-more1 .speaker {
+    margin-bottom: 50px;
+  }
+
+  .show-more2 .speaker {
+    margin-bottom: 50px;
+  }
+
+  .desktop-partners {
+    display: block;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
 }

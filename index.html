@@ -13,19 +13,30 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body class="primary-font">
+    <nav class="desktop-nav">
+      <div class="desk-nav-container">
+          <img src="images/logo.png" alt="facebook link" />
+
+      <div>
+        <a href="index.html"
+          >Home</a>
+        <a href="about.html">About</a>
+    </div>
+  </div>
+    </nav>
 		<div class="main-container">
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" id="close">&times;</a>
-        <div class="overlay-content" id="nav-links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-        </div>
-      </div>
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" id="close">&times;</a>
+				<div class="overlay-content" id="nav-links">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+				</div>
+			</div>
 			<div class="main-content">
 				<header>
 					<nav class="mobile-nav">
 						<img
-            id="open"
+							id="open"
 							class="mobile-icon"
 							src="images/hamburger.jpg"
 							alt="mobile-menu"
@@ -52,6 +63,7 @@
 		</div>
 		<section class="workshops">
 			<h2 class="title workshops-title">Main Workshops</h2>
+      <div class="cards-container">
 			<div class="workshop-card">
 				<img class="card-img" src="./images/html.png" alt="html" />
 				<h3 class="card-name secondary">HTML 5</h3>
@@ -101,12 +113,15 @@
 					individuals and corporations.
 				</p>
 			</div>
-			<div class="btn-div">
-				<button class="join-btn">Join our workshops NOW!</button>
-			</div>
+
+    </div>
+    <div class="btn-div">
+      <button class="join-btn">Join our workshops NOW!</button>
+    </div>
 		</section>
 		<section class="speakers">
 			<h2 class="title speakers-title primary">Featured Speakers</h2>
+      <div class="speakers-container">
 			<div class="speaker">
 				<div class="img-container">
 					<img class="speaker-img" src="./images/speaker1.jpg" />
@@ -207,8 +222,27 @@
 					</div>
 				</div>
 			</div>
+    </div>
 		</section>
+    <section class="partners desktop-partners">
+			<h2 class="title workshops-title partners-title">Partners</h2>
+			<div></div>
+			<div class="partners-container">
+				<img src="images/partner1.png" alt="partner" />
+				<img src="images/partner2.png" alt="partner" />
+				<img src="images/partner3.png" alt="partner" />
+				<img src="images/partner4.png" alt="partner" />
+				<img src="images/partner5.png" alt="partner" />
+			</div>
+		</section>
+    <footer class="dekstop-footer">
+			<img src="./images/logo.png" alt="logo" />
+			<div>
+				<p class="primary">This website was made by Mai Rizk.</p>
+				<p>With love<span class="heart"></span></p>
+			</div>
+		</footer>
 		<script src="index.js"></script>
-    <script src="more.js"></script>
+		<script src="more.js"></script>
 	</body>
 </html>
