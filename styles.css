@@ -31,10 +31,6 @@ body {
   display: none;
 }
 
-.desktop-footer {
-  display: none;
-}
-
 .main-container {
 	position: relative;
 }
@@ -491,6 +487,10 @@ footer img {
 	}
 }
 
+.dekstop-footer {
+  display: none;
+}
+
 /* Desktop Styling */
 
 @media only screen and (min-width: 768px) {
@@ -603,10 +603,6 @@ footer img {
     display: block;
   }
 
-  .desktop-footer {
-    display: block;
-  }
-
   .about-article {
     width: 60%;
     margin: auto;
@@ -637,6 +633,10 @@ footer img {
 
   .about-footer {
     background: #414246;
+  }
+
+  .dekstop-footer {
+    display: grid;
   }
 
   .footer-container p {
