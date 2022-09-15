@@ -220,31 +220,7 @@ h1 {
 
 .speaker p {
 	font-size: 15px;
-}
-
-.show-btn {
-	width: 100%;
-	background: transparent;
-	border: 1px solid #d3d3d3;
-	font-size: 17px;
-	font-weight: 400;
-	padding: 20px 0;
-	cursor: pointer;
-	margin-bottom: 40px;
-}
-
-.show-btn img {
-	width: 15px;
-	height: 9px;
-	margin-left: 5px;
-}
-
-.show-more1 {
-	display: none;
-}
-
-.show-more2 {
-	display: none;
+  margin-bottom: 0;
 }
 
 .overlay {
@@ -569,18 +545,6 @@ footer img {
     margin: auto;
   }
 
-  .show-btn {
-    display: none;
-  }
-
-  .show-more1 {
-    display: block;
-  }
-
-  .show-more2 {
-    display: block;
-  }
-
   .speakers-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -589,14 +553,6 @@ footer img {
 
   .speaker {
     margin-bottom: 30px;
-  }
-
-  .show-more1 .speaker {
-    margin-bottom: 50px;
-  }
-
-  .show-more2 .speaker {
-    margin-bottom: 50px;
   }
 
   .desktop-partners {
