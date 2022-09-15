@@ -20,10 +20,10 @@ Here're are some screenshots from the mobile and desktop version from both pages
     <img style="border: 1px solid black;" src="./images/screenshot4.png" width="700"  alt="About page">
 </p>
 <p align="center">
-    <img style="border: 1px solid black;" src="./images/screenshot5.png" width="700"  alt="Mobile nav menu">
+    <img style="border: 1px solid black;" src="./images/screenshot5.png" width="400"  alt="Mobile nav menu">
 </p>
 <p align="center">
-    <img style="border: 1px solid black;" src="./images/screenshot6.png" width="700"  alt="Home page mobile view">
+    <img style="border: 1px solid black;" src="./images/screenshot6.png" width="400"  alt="Home page mobile view">
 </p>
 
 ## Built With
