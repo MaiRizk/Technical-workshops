@@ -1,78 +1,77 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Technical Workshops
+
+## About
 
 This website provides technical workshops from experienced developers worldwide. It has 2 pages; the home page and the about page. 
 The home page shows all the main information about the topics and speakers. The about page shows some information about the website and the history of the workshops;
 
 Here're are some screenshots from the mobile and desktop version from both pages;
 
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot1.png" width="700" alt="Home page">
+</p>
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot2.png" width="700" alt="Main workshops">
+</p>
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot3.png" width="700" alt="Featured speakers and partners">
+</p>
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot4.png" width="700"  alt="About page">
+</p>
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot5.png" width="700"  alt="Mobile nav menu">
+</p>
+<p align="center">
+    <img style="border: 1px solid black;" src="./images/screenshot6.png" width="700"  alt="Home page mobile view">
+</p>
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML, CSS, JavaScript;
+- VisualStudio Code, Git, & GitHub;
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
+```sh
+git clone https://github.com/MaiRizk/Technical-workshops.git
+```
 
-To get a local copy up and running follow these simple example steps.
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd Technical workshops
+```
 
-### Prerequisites
+## Live Demo (if available)
 
-### Setup
+[Live Demo Link](https://mairizk.github.io/Technical-workshops/)
 
-### Install
+## Author
 
-### Usage
+👤 **MaiRizk**
 
-### Run tests
+- GitHub: [@MaiRizk](https://github.com/MaiRizk)
+- Twitter: [@MaiRizk](https://twitter.com/MaiRizk16)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mai-rizk-252722188/)
 
-### Deployment
+## Acknowledgments
 
+- The design was inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MaiRizk/Technical-workshops/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/MaiRizk/Technical-workshops/blob/main/LICENSE) licensed.
