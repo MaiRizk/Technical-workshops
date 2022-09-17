@@ -79,5 +79,5 @@ addEventListener('load', () => {
       </div>
   `;
     parent.appendChild(speaker);
-    }
+  }
 });
