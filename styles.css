@@ -484,6 +484,10 @@ footer img {
     display: block;
     box-shadow: 0 11px 10px -16px #111;
   }
+  
+  .right-links {
+    display: flex;
+  }
 
   .small-nav {
     padding: 0.25em 2em;
