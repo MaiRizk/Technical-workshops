@@ -103,11 +103,12 @@ h1 {
 }
 
 .workshops {
-  background-image: url(./images/dark-bg.webp);
+  background: #272930;
+}
+
+.workshop-container {
+  background-image: url(./images/main.png);
   padding: 50px 20px;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
 }
 
 .workshops-title {
