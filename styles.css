@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .primary {
   color: #272a31;
 }
@@ -481,6 +485,27 @@ footer img {
     box-shadow: 0 11px 10px -16px #111;
   }
 
+  .small-nav {
+    padding: 0.25em 2em;
+    background: #3e3e3e;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .small-nav-list {
+    display: flex;
+    margin: 0;
+    width: 84%;
+    justify-content: flex-end;
+    padding: 10px 0;
+    margin: auto;
+  }
+
+  .list-item {
+    color: white;
+    font-size: 17px;
+  }
+
   .desk-nav-container {
     display: flex;
     justify-content: space-between;
@@ -500,6 +525,11 @@ footer img {
     margin-right: 20px;
     font-size: 22px;
     font-weight: 600;
+  }
+
+  .list-item a {
+    color: white;
+    font-size: 14px;
   }
 
   .main-content {
