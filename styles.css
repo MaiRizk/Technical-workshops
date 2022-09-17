@@ -494,7 +494,6 @@ footer img {
 
   .small-nav-list {
     display: flex;
-    margin: 0;
     width: 84%;
     justify-content: flex-end;
     padding: 10px 0;
