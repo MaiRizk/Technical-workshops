@@ -1,3 +1,6 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable no-restricted-globals */
+
 // Mobile navigation menu
 
 function openNav() {
@@ -33,7 +36,7 @@ const speakersInfo = [
     speakerImg: './images/speaker3.jpg',
     speakerName: 'Kyle Simpson',
     speakerBrief: 'Open Web Evangelist',
-    moreInfo:  'Kyle Simpson likes to explore JS and FP techniques. He’s written books, taught, and spoken publicly.',
+    moreInfo: 'Kyle Simpson likes to explore JS and FP techniques. He’s written books, taught, and spoken publicly.',
   },
   {
     speakerImg: './images/speaker4.jpeg',
@@ -75,6 +78,6 @@ addEventListener('load', () => {
         </p>
       </div>
   `;
-		parent.appendChild(speaker);
-	}
+    parent.appendChild(speaker);
+    }
 });
